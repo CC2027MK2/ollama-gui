@@ -1,0 +1,23 @@
+# 构建产物
+work/build/
+work/pyi/build/
+work/pyi/dist/
+dist/
+outputs/
+
+# 二进制 / 模型 / 语言数据
+*.exe
+*.dll
+*.zip
+*.7z
+*.bin
+*.traineddata
+
+# 本地配置、日志、翻译结果
+*config*.json
+*.log
+翻译结果/
+
+# 缓存
+__pycache__/
+*.pyc
